@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ethan Is Boss</title>
+
+
+
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+<script>
+function myFunction() {
+    document.getElementById("toastform").submit();
+}
+</script>
+<body>
+
+  <div class="panel" style="display: block;"name="hold"id="idk">
+  	<h1>Sub Checker</h1>
+    <h2>By Arnav Chawla</h2>
+    <span class="r-version">v1.0.1</span>
+    <h4>List of absent teachers</h1>
+          {% for data in data %}
+                  <li onclick="">
+                    <span class="label">{{data.name}}</span>
+                  </li>
+          {% endfor %}
+
+
+      <!-- <li onclick="ga('send', 'event', 'Download', 'click');">
+      <a download="" href="https://github.com/VincentGarreau/particles.js/archive/master.zip">
+      </a>
+    </li> -->
+
+  </div>
+  <!-- particles.js container --> <div id="particles-js"> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+
+
+
+    <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
+
+
+
+
+
+</body>
+
+</html>
