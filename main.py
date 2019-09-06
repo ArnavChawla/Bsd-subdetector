@@ -15,7 +15,7 @@ def hello_world():
     url = "https://wa-bsd405.edupoint.com//Service/SubLogin.asmx/LoadSubs"
     session = requests.Session()
     data = {
-      'curSchoolOrgYearGU':'70383CF4-191C-475E-B0B2-6995F11370D1'
+      'curSchoolOrgYearGU':'4C5D9CB6-9676-47C8-82EE-48F152FDDF02'
     }
     headers = {
       'contentType': "application/json"
