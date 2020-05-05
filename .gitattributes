@@ -1,2 +1,1 @@
-* Bsd-subdetector
-*.py Bsd-subdetector=false
+ *.* linguist-language=Python
